@@ -1,0 +1,122 @@
+/* CSS for styling the content */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color:black;
+}
+
+header {
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    padding: 20px;
+}
+
+.about {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.about h2 {
+    color: black;
+    margin-top: 0;
+}
+
+.about p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: justify;
+    color: #555;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    background-color: black;
+}
+.footercontainer{
+ width: 100%;
+ padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;   
+}
+.socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialicons a:hover{
+ background-color: #111;   
+ transition: 0.5s;
+}
+.socialicons a:hover i{
+color:white;
+transition: 0.5s;
+}
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footernav ul li a{
+    color: white;
+    margin:20px ;
+    text-decoration:none ;
+    font-size: 1.3em;
+    opacity:0.7 ;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0 5px;
+}
+@media(max-width: 700px){
+.footernav ul{
+    flex-direction: column ;
+}
+.footernav ul li{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+}
